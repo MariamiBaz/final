@@ -1,0 +1,257 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+}
+
+header nav .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.active {
+  color:steelblue;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  place-items: center;
+}
+
+main section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
+  place-items: center;
+  padding: 25px;
+  border:  1px solid steelblue;
+}
+
+main .form {
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main section .top {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+main section .bottom {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+
+main section .bottom button {
+  width: 100%;
+}
+
+main section .top span {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+main section .bottom .actionToggle {
+  display: block;
+}
+
+main section .top,
+main section .bottom button,
+main section .bottom label,
+main section .bottom input::placeholder {
+  user-select: none;
+}
+
+main .todo {
+  width: 70%;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  border-radius: 15px;
+}
+
+main .todo div {
+  width: 100%;
+}
+
+main .todo div textarea {
+  min-height: 100px;
+  max-height: 300px;
+  resize: vertical;
+}
+
+main .todo div button {
+  width: 100%;
+}
+
+main .loader {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  top: 5%;
+}
+
+main .loader .spinner-border {
+  width: 550px !important;
+  height: 550px !important;
+}
+
+main .after-load {
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.active-register {
+  font-weight: bold;
+  color: steelblue;
+ 
+  text-decoration: none;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.fa-sharp.fa-solid.fa-eye {
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: lightskyblue;
+}
+
+div.password {
+ display: grid;
+ grid-template-columns: 1fr;
+ 
+ column-gap:0px;
+}
+.password {
+  margin-bottom: 20px;
+}
+
+.password label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.password .input-group-text {
+  cursor: pointer;
+}
+
+.password input {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.password input:focus {
+  outline: none;
+  border-color: #6c757d;
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.25);
+}
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group-text {
+  margin-right: 10px;
+}
+
+
